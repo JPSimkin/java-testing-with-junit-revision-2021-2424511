@@ -19,6 +19,6 @@ public class BankAccountTest {
     public void testDeposit() {
         BankAccount bankAccount = new BankAccount(400, 0);
         bankAccount.deposit(500);
-        assertEquals(900, bankAccount.getBalance());
+        assertEquals(900, bankAccount.getBalance(),"Unexpected value, expected 900");
     }
 }
